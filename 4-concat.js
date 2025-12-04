@@ -1,4 +1,1 @@
-const a = process.argv[2] || 'undefined';
-const b = process.argv[3] || 'undefined';
-
-console.log(\( {a} is \){b});
+console.log((process.argv[2]  'undefined') + ' is ' + (process.argv[3]  'undefined'));
